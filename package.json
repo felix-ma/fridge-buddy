@@ -1,0 +1,10 @@
+{
+  "name": "fridge-buddy",
+  "version": "1.0.0",
+  "private": true,
+  "description": "智能冰箱食材管理小程序（MVP）",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "sync:engine": "cp cloudfunctions/aiProxy/lib/inventory-engine.js miniprogram/utils/inventory-engine.js"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "aiProxy",
+  "version": "1.0.0",
+  "private": true,
+  "description": "冰箱助手 · AI 代理云函数（Key 保管 / 多图转发 / 观测落库 / 状态机）",
+  "main": "index.js",
+  "engines": {
+    "node": ">=16"
+  },
+  "dependencies": {
+    "wx-server-sdk": "~2.6.3"
+  }
+}
