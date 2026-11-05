@@ -2,9 +2,44 @@
   "name": "fridge-buddy",
   "version": "1.0.0",
   "private": true,
-  "description": "智能冰箱食材管理小程序（MVP）",
+  "description": "智能冰箱食材管理小程序（Taro + React）",
+  "templateInfo": {
+    "name": "default",
+    "typescript": true,
+    "css": "none",
+    "framework": "react"
+  },
   "scripts": {
-    "test": "node --test test/*.test.js",
-    "sync:engine": "cp cloudfunctions/aiProxy/lib/inventory-engine.js miniprogram/utils/inventory-engine.js"
+    "build:weapp": "taro build --type weapp",
+    "dev:weapp": "npm run build:weapp -- --watch",
+    "test": "node --test test/*.test.js"
+  },
+  "browserslist": [
+    "last 3 versions",
+    "Android >= 4.1",
+    "ios >= 8"
+  ],
+  "dependencies": {
+    "@babel/runtime": "^7.24.4",
+    "@tarojs/components": "4.3.2",
+    "@tarojs/helper": "4.3.2",
+    "@tarojs/plugin-framework-react": "4.3.2",
+    "@tarojs/plugin-platform-weapp": "4.3.2",
+    "@tarojs/react": "4.3.2",
+    "@tarojs/runtime": "4.3.2",
+    "@tarojs/shared": "4.3.2",
+    "@tarojs/taro": "4.3.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.4",
+    "@tarojs/cli": "4.3.2",
+    "@tarojs/webpack5-runner": "4.3.2",
+    "@types/react": "^18.3.1",
+    "@types/webpack-env": "^1.18.4",
+    "babel-preset-taro": "4.3.2",
+    "typescript": "^5.4.5",
+    "webpack": "^5.91.0"
   }
 }
