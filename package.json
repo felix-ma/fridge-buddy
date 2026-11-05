@@ -12,7 +12,10 @@
   "scripts": {
     "build:weapp": "taro build --type weapp",
     "dev:weapp": "npm run build:weapp -- --watch",
-    "test": "node --test test/*.test.js"
+    "test": "node --test test/*.test.js",
+    "typecheck": "tsc --noEmit",
+    "specs": "node scripts/specs.mjs",
+    "spec:check": "node scripts/specs.mjs check"
   },
   "browserslist": [
     "last 3 versions",
