@@ -1,0 +1,22 @@
+.field {
+  margin-top: 24px;
+}
+
+.field-label {
+  font-size: 24px;
+  color: #6b7280;
+}
+
+.field-input {
+  height: 88px;
+  background: #f6f7f9;
+  border-radius: 12px;
+  padding: 0 20px;
+  margin-top: 8px;
+  font-size: 28px;
+}
+
+.block {
+  display: block;
+  margin-top: 10px;
+}

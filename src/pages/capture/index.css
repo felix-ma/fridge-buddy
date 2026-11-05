@@ -1,0 +1,88 @@
+.capture {
+  padding-top: 16px;
+}
+
+.prompt-bar {
+  background: #1f6feb;
+  color: #fff;
+  margin: 0 24px 20px;
+  padding: 24px 28px;
+  border-radius: 20px;
+}
+
+.prompt-title {
+  display: block;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.prompt-hint {
+  display: block;
+  margin-top: 8px;
+  font-size: 24px;
+  opacity: 0.85;
+}
+
+.shots {
+  display: flex;
+  padding: 0 24px;
+}
+
+.shot {
+  flex: 1;
+  height: 220px;
+  margin-right: 16px;
+  border-radius: 16px;
+  background: #eef0f3;
+  border: 2px dashed #c9ced6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.shot:last-child {
+  margin-right: 0;
+}
+
+.shot-done {
+  border-style: solid;
+  border-color: #1f6feb;
+}
+
+.shot-img {
+  width: 100%;
+  height: 100%;
+}
+
+.shot-idx {
+  font-size: 40px;
+  color: #a9b0ba;
+}
+
+.shot-label {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 6px 0;
+  text-align: center;
+  font-size: 22px;
+  color: #4b5563;
+  background: rgba(255, 255, 255, 0.85);
+}
+
+.actions {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.footnote {
+  display: block;
+  text-align: center;
+  padding: 0 40px;
+}
