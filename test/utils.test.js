@@ -8,9 +8,9 @@
 const test = require('node:test');
 const assert = require('node:assert');
 
-const image = require('../miniprogram/utils/image.js');
-const api = require('../miniprogram/utils/api.js');
-const capture = require('../miniprogram/utils/capture.js');
+const image = require('../src/utils/image.js');
+const api = require('../src/utils/api.js');
+const capture = require('../src/utils/capture.js');
 
 // ---------------------------------------------------------------------------
 // image.js：纯函数
@@ -324,7 +324,7 @@ test('cacheProvider：只缓存 base_url / model_name，绝不写 Key', () => {
 // flow.js：串起来用
 // ---------------------------------------------------------------------------
 
-const flow = require('../miniprogram/utils/flow.js');
+const flow = require('../src/utils/flow.js');
 
 function makeFlowWx({ hasKey = true, choosePaths = ['wxfile://a.jpg'], scanResult = { ok: true, data: { summary_card: { lines: [], zeroTap: true } } } } = {}) {
   const { wxMock } = makeWxMock();

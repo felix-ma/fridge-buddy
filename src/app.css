@@ -1,0 +1,89 @@
+page {
+  background: #f6f7f9;
+  color: #1c1f24;
+  font-size: 28px;
+  line-height: 1.5;
+  font-family: -apple-system, 'PingFang SC', 'Helvetica Neue', sans-serif;
+}
+
+view,
+text {
+  box-sizing: border-box;
+}
+
+.page {
+  min-height: 100vh;
+  padding-bottom: 40px;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 28px;
+  margin: 0 24px 20px;
+}
+
+.muted {
+  color: #8b909a;
+}
+
+.small {
+  font-size: 24px;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.row-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  height: 40px;
+  padding: 0 14px;
+  border-radius: 999px;
+  font-size: 22px;
+}
+
+.chip-ok {
+  background: #e8f5ec;
+  color: #1a7f37;
+}
+
+.chip-warn {
+  background: #fff4e0;
+  color: #a15c00;
+}
+
+.chip-danger {
+  background: #fdecec;
+  color: #c62828;
+}
+
+.chip-muted {
+  background: #eef0f3;
+  color: #6b7280;
+}
+
+.divider {
+  height: 1px;
+  background: #eef0f3;
+  margin: 20px 0;
+}
+
+.empty {
+  padding: 60px 0;
+  text-align: center;
+  color: #8b909a;
+  font-size: 26px;
+}
