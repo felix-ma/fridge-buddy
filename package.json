@@ -30,7 +30,8 @@
     "@tarojs/shared": "4.3.2",
     "@tarojs/taro": "4.3.2",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "@nutui/nutui-react-taro": "^2.7.14"
   },
   "devDependencies": {
     "@babel/core": "^7.24.4",
